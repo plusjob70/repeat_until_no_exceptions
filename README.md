@@ -27,14 +27,11 @@ test_func(['a', 'b', 'c', 'd'])
 
     rdm_idx = 4
     [Chance : 5] "test_func" will be re-executed after 2 sec.
+    
     rdm_idx = 10
     [Chance : 4] "test_func" will be re-executed after 2 sec.
+    
     rdm_idx = 3
-
-
-
-
-
     'd'
 
 
@@ -48,14 +45,19 @@ test_func(['a'])
 
     rdm_idx = 5
     [Chance : 5] "test_func" will be re-executed after 2 sec.
+    
     rdm_idx = 2
     [Chance : 4] "test_func" will be re-executed after 2 sec.
+    
     rdm_idx = 9
     [Chance : 3] "test_func" will be re-executed after 2 sec.
+    
     rdm_idx = 9
     [Chance : 2] "test_func" will be re-executed after 2 sec.
+    
     rdm_idx = 6
     [Chance : 1] "test_func" will be re-executed after 2 sec.
+    
     Exhaustion of all chances
 
 
