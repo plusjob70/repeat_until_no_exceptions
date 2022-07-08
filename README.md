@@ -1,4 +1,4 @@
-# repetition_until_no_exceptions
+# repeat_until_no_exceptions
 ```python
 from repeat import repeat_until_no_exceptions
 ```
