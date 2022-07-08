@@ -1,7 +1,7 @@
 import time
 from functools import wraps
 
-def repeat(chances: int = 1, waiting_second: int = 3, *exceptions):
+def repeat_until_no_exception(chances: int = 1, waiting_second: int = 3, *exceptions):
     def a(function):
         @wraps(function)
         def b(*args, **kwargs):

@@ -1,6 +1,6 @@
-# repetition_until_no_exception
+# repetition_until_no_exceptions
 ```python
-from repeat import repeat
+from repeat import repeat_until_no_exceptions
 ```
 
 # TEST
@@ -11,7 +11,7 @@ from repeat import repeat
 ```python
 from random import randint
 
-@repeat(5, 2, IndexError)
+@repeat_until_no_exceptions(5, 2, IndexError)
 def test_func(test_list: list):
     rdm_idx = randint(0, 10)
     print(f'{rdm_idx = }')
@@ -64,7 +64,7 @@ test_func(['a'])
 
     ---------------------------------------------------------------------------
 
-    TimeoutError                              Traceback (most recent call last)
+    TimeoutError          Traceback (most recent call last)
 
     File ~/repetition_until_no_exception/repeat.py:15, in repeat.<locals>.a.<locals>.b(*args, **kwargs)
          13         time.sleep(waiting_second)
